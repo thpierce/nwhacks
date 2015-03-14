@@ -462,8 +462,8 @@ GameObject:
   - 212: {fileID: 1905046301}
   - 61: {fileID: 1905046300}
   - 50: {fileID: 1905046299}
-  - 114: {fileID: 1905046298}
   - 114: {fileID: 1905046303}
+  - 114: {fileID: 1905046298}
   m_Layer: 0
   m_Name: apple
   m_TagString: Untagged
@@ -477,13 +477,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1905046297}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8ce7cda5ddbc4ba793c0a9ff82deb16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 10, y: 10}
-  direction: {x: 1, y: 0}
+  movement: {x: 3, y: 0}
 --- !u!50 &1905046299
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -509,7 +508,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1905046297}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Size: {x: 1.91999996, y: 2.96000004}
   m_Center: {x: 0, y: 0}
 --- !u!212 &1905046301
@@ -599,7 +598,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 6175630, guid: fae016a1db2c14511a4a9a47420e6c4d, type: 2}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fae016a1db2c14511a4a9a47420e6c4d, type: 2}
