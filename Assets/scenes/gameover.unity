@@ -252,6 +252,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 721203372}
+  - 114: {fileID: 721203373}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -271,6 +272,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!114 &721203373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 721203371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ad4a5b28f8b0ac4a8ebe26b1b3310d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1267657509
 GameObject:
   m_ObjectHideFlags: 0
