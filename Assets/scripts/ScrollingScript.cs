@@ -57,7 +57,7 @@ public class ScrollingScript : MonoBehaviour
 			// We would need to add a few conditions to handle
 			// all the possible scrolling directions.
 			backgroundPart = backgroundPart.OrderBy(
-				t => t.position.x
+				t => t.position.x 
 				).ToList();
 		}
 	}
