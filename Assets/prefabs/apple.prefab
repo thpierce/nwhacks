@@ -12,6 +12,8 @@ GameObject:
   - 61: {fileID: 6175630}
   - 50: {fileID: 5075630}
   - 114: {fileID: 11476782}
+  - 114: {fileID: 11471906}
+  - 114: {fileID: 11455108}
   m_Layer: 0
   m_Name: apple
   m_TagString: Untagged
@@ -26,7 +28,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 175630}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7, y: 0, z: 0}
+  m_LocalPosition: {x: -16.3074532, y: -11.5180979, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -57,6 +59,28 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: 1.91999996, y: 2.96000004}
   m_Center: {x: 0, y: 0}
+--- !u!114 &11455108
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16568f6e6db5c9b42a2621db2458cf2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11471906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93fad98ae87b4afabf5c57f44b2321e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11476782
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -68,8 +92,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ce7cda5ddbc4ba793c0a9ff82deb16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 10, y: 10}
-  direction: {x: 1, y: 0}
+  movement: {x: 3, y: 0}
 --- !u!212 &21275630
 SpriteRenderer:
   m_ObjectHideFlags: 1
