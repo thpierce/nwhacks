@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 441c42c5c1678cf4bb0beee5ad86c0b6
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - garbagePrefab: {fileID: 475630, guid: fae016a1db2c14511a4a9a47420e6c4d, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
