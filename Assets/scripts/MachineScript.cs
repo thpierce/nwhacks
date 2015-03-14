@@ -50,11 +50,11 @@ public class MachineScript : MonoBehaviour {
 			randomPosition = new Vector3 (-7,randomY,5);
 			var garbageTransform = Instantiate(garbagePrefab) as Transform;
 			garbageTransform.position = randomPosition;
-			TrashMoveScript move = garbageTransform.gameObject.GetComponent<TrashMoveScript>();
-			if (move != null)
-			{
-				move.direction = this.transform.right; // towards in 2D space is the right of the sprite
-			}
+			//TrashMoveScript move = garbageTransform.gameObject.GetComponent<TrashMoveScript>();
+//			if (move != null)
+//			{
+//				move.direction = this.transform.right; // towards in 2D space is the right of the sprite
+//			}
 	}
 
 }
