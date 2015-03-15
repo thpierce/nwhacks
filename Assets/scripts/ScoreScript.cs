@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
-public class Score : MonoBehaviour {
+public class ScoreScript : MonoBehaviour {
 
 	private int score;
 
@@ -16,6 +17,7 @@ public class Score : MonoBehaviour {
 	}
 
 	void drawScore() {
+		print("Score: "+score);
 		GetComponent<GUIText>().text = "Score: " + score.ToString();
 	}
 }

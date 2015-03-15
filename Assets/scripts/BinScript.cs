@@ -1,22 +1,17 @@
 ﻿using UnityEngine;
+using System.Collections;
 
-/// <summary>
-/// Projectile behavior
-/// </summary>
-public class TrashCanScript : MonoBehaviour
-{
-	public string bintype = "";
+public class BinScript : MonoBehaviour{
+	public string binType;
 
-	void OnTriggerEnter2D(Collider2D otherCollider)
-	{
-		GameObject gameobject = otherCollider.gameObject;
-		WasteTypeScript wastetypescript = gameobject.GetComponent<WasteTypeScript> ();
+	void OnTriggerEnter2D(Collider2D otherCollider){
+		WasteTypeScript wastetypescript = otherCollider.gameObject.GetComponent<WasteTypeScript> ();
 
 		// Remove the other collider if it's waste of the right type
-		if (wastetypescript != null && bintype.Equals (wastetypescript.type)) {
+		if (wastetypescript != null && binType.Equals (wastetypescript.type)) {
 			// Increase score
 			// Destroy
-			Destroy (gameobject);
+			Destroy (otherCollider.gameObject);
 		} else {
 			// Decrease score
 		}

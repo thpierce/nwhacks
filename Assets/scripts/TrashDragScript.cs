@@ -8,7 +8,7 @@ public class TrashDragScript : MonoBehaviour {
 
 	void OnMouseDown()
 	{	
-
+		gameObject.GetComponent<BoxCollider2D>().enabled = false;
 		//translate the cubes position from the world to Screen Point
 		screenSpace = Camera.main.WorldToScreenPoint(transform.position);
 		//calculate any difference between the cubes world position and the mouses Screen position converted to a world point  
@@ -23,6 +23,7 @@ public class TrashDragScript : MonoBehaviour {
 
 	void OnMouseUp()
 	{
+		gameObject.GetComponent<BoxCollider2D>().enabled = true;
 		// Put the trash back on the conveyor belt
 		rigidbody2D.gravityScale = 1.0f;
 
