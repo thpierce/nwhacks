@@ -8,6 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/menu.unity
   - enabled: 1
-    path: Assets/scenes/gameover.unity
+    path: Assets/scenes/gameoverlose.unity
   - enabled: 1
     path: Assets/scenes/stage1.unity

@@ -9,7 +9,7 @@ public class LifeScript : MonoBehaviour {
 
 		livesRemaining -= 1;
 		if (livesRemaining == 0) {
-			Application.LoadLevel ("gameover");
+			Application.LoadLevel ("gameoverlose");
 		} else {
 			print(livesRemaining.ToString ());
 			// Get the image with the right number of hearts
