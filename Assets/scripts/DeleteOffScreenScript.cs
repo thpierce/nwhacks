@@ -8,6 +8,7 @@ public class DeleteOffScreenScript : MonoBehaviour {
 		if (thisPos.x > Screen.width){
 			Destroy(gameObject);
 			transform.Find("/Level/2 - Foreground/Life Counter").GetComponent<LifeScript>().loseLife();
+			Handheld.Vibrate();
 		}
 	}
 }

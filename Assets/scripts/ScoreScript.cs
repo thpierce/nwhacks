@@ -22,6 +22,6 @@ public class ScoreScript : MonoBehaviour {
 	void OnGUI () {
 		GUI.skin.font = ScoreFont;
 		string message = "<color=black><size=40>"+scoreText+"</size></color>";
-		GUI.Label(new Rect (10, 10, 400, 60), message);	
+		GUI.Label(new Rect (10, 10, 400, 80), message);	
 	}
 }
