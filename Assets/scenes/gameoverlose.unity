@@ -261,11 +261,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efac9dcec4b084ea5a5a53409ae77e2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenu: {fileID: 2800000, guid: 51a64466ef9d445859486d397d816ff6, type: 3}
-  playAgain: {fileID: 2800000, guid: abf4a7eb79a524a2f8337c5e732d80fe, type: 3}
+  mainMenu: {fileID: 2800000, guid: 010bd32867adcf143ae5cc17a37a4a2f, type: 3}
+  playAgain: {fileID: 2800000, guid: adf4fdbbc901a824097aecc0f662c0ce, type: 3}
   guiPlacementX1: .100000001
-  guiPlacementX2: .200000003
-  guiPlacementY1: .100000001
+  guiPlacementX2: .270000011
+  guiPlacementY1: .200000003
   guiPlacementY2: .200000003
 --- !u!1 &721203371
 GameObject:
@@ -456,16 +456,24 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11477240, guid: 70cffdbbb83047d43a6251dc69807f94, type: 2}
       propertyPath: guiPlacementY1
-      value: .100000001
+      value: .200000003
       objectReference: {fileID: 0}
     - target: {fileID: 11477240, guid: 70cffdbbb83047d43a6251dc69807f94, type: 2}
       propertyPath: guiPlacementX2
-      value: .200000003
+      value: .270000011
       objectReference: {fileID: 0}
     - target: {fileID: 11477240, guid: 70cffdbbb83047d43a6251dc69807f94, type: 2}
       propertyPath: guiPlacementY2
       value: .200000003
       objectReference: {fileID: 0}
+    - target: {fileID: 11477240, guid: 70cffdbbb83047d43a6251dc69807f94, type: 2}
+      propertyPath: playAgain
+      value: 
+      objectReference: {fileID: 2800000, guid: adf4fdbbc901a824097aecc0f662c0ce, type: 3}
+    - target: {fileID: 11477240, guid: 70cffdbbb83047d43a6251dc69807f94, type: 2}
+      propertyPath: mainMenu
+      value: 
+      objectReference: {fileID: 2800000, guid: 010bd32867adcf143ae5cc17a37a4a2f, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 70cffdbbb83047d43a6251dc69807f94, type: 2}
   m_RootGameObject: {fileID: 589412194}

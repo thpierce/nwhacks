@@ -19,12 +19,10 @@ public class EndGameScript : MonoBehaviour {
 		//play again
 		if (GUI.Button (new Rect(Screen.width * guiPlacementX2, Screen.height * guiPlacementY2, Screen.width * .7f, Screen.height * .2f), playAgain, "")){
 			Application.LoadLevel("stage1");
-			print ("clicked pa");
 		}
 		//go to main menu
-		if (GUI.Button (new Rect(Screen.width * guiPlacementX1, Screen.height * guiPlacementY1, Screen.width * .7f, Screen.height * .2f), mainMenu, "")){
+		if (GUI.Button (new Rect(Screen.width * guiPlacementX1, Screen.height * guiPlacementY1, Screen.width * .8f, Screen.height * .3f), mainMenu, "")){
 			Application.LoadLevel("menu");
-			print ("clicked mm");
 		}
 
 	}
