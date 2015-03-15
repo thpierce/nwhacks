@@ -3,7 +3,7 @@
 /// <summary>
 /// Projectile behavior
 /// </summary>
-public class TrashCanScript : MonoBehaviour
+public class BinScript : MonoBehaviour
 {
 	public string bintype = "";
 
