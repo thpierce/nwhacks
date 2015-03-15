@@ -3,18 +3,19 @@ using System.Collections;
 
 public class StartGameScript : MonoBehaviour {
 
+	public Texture startGame;
+
+	public float guiPlacementX1;
+	public float guiPlacementX2;
+
+	public float guiPlacementY1;
+	public float guiPlacementY2;
+
+
 	void OnGUI () {
-		const int width = 100;
-		const int height = 50;
-
-		Rect start = new Rect(
-			Screen.width/2 - width/2,
-			3*Screen.height/4 - height/2,
-			width,
-			height);
-
-		if (GUI.Button (start, "Start Game")){
-			Application.LoadLevel("stage1");
+	
+		if (GUI.Button (new Rect(Screen.width * guiPlacementX1, Screen.height * guiPlacementY1, Screen.width * guiPlacementX2, Screen.height * guiPlacementY2), startGame, "")){
+		    Application.LoadLevel("stage1");
 		}
 	}
 }
